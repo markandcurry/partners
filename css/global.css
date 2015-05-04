@@ -115,7 +115,7 @@ input[type="submit"] {
 }
 button:hover, .button:hover, 
 input[type="submit"]:hover {
-	background: url(../img/button_hover_bg.png) repeat-x;
+	background: url(../img/button_hover_bg.png) repeat-x #004960;
 }
 button.secondary, .button.secondary {
 	background-color: #174977;
@@ -373,6 +373,27 @@ button.tiny, .button.tiny {
 }
 .accordion [class*="block-grid-"]>li {
 	padding: 1rem 0.625rem 0;
+}
+.accordion .accordion-navigation {
+		font-size:18px;
+}
+.accordion .accordion-navigation a {
+	color:#2A8A18;
+}
+.accordion .accordion-navigation.active a {
+	color:#000;
+}
+.accordion .arrowin{
+  display:inline;
+}
+.accordion .arrowdown{
+  display:none;
+}
+.accordion .active .arrowin{
+  display:none;
+}
+.accordion .active .arrowdown{
+  display:inline;
 }
 #sidebar.overlap {
 }
@@ -2359,6 +2380,13 @@ table tr td {
 	font-size:30px;
 	font-weight:normal;
 }
+.sidebar-module select {
+		background:url(../img/homepage_hero_callout_select.png) #fff right no-repeat;
+	height:63px;
+	 -webkit-appearance: none;       
+     -moz-appearance: none;    
+     appearance: none;
+}
 .bgGreen {
 	background:#006c8c;
 }
@@ -2399,10 +2427,12 @@ table tr td {
 	line-height:22px;
 	margin-bottom:32px;
 }
-.homepage-hero-callout form .select-container {
+.homepage-hero-callout form .select-container select {
 	background:url(../img/homepage_hero_callout_select.png) #fff right no-repeat;
 	height:63px;
-	overflow: hidden;
+	 -webkit-appearance: none;       
+     -moz-appearance: none;    
+     appearance: none;
 }
 .homepage-hero-callout form select {
     border: none;
@@ -2515,4 +2545,11 @@ table tr td {
 }
 .shots {
 	margin-bottom:28px;
+}
+.marginTop30 {
+	margin-top:30px;
+}
+.homepage-locations .whiteBorder {
+	padding:20px;
+	margin-top:30px;
 }
