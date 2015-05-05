@@ -110,12 +110,15 @@ a:hover {
 /*  Links  */
 button, .button, 
 input[type="submit"] {
-	background:url(../img/normal_button_bg.png) repeat-x;
+	background:url(../img/white_chevron.png) no-repeat 95%,
+	url(../img/normal_button_bg.png) repeat-x;
 	text-transform:uppercase;
+	text-align:left;
+	font-weight:bold;
 }
 button:hover, .button:hover, 
 input[type="submit"]:hover {
-	background: url(../img/button_hover_bg.png) repeat-x #004960;
+	background:url(../img/white_chevron.png) no-repeat 95%, url(../img/button_hover_bg.png) repeat-x;
 }
 button.secondary, .button.secondary {
 	background-color: #174977;
@@ -2349,6 +2352,10 @@ table tr td {
 	 -webkit-appearance: none;       
      -moz-appearance: none;    
      appearance: none;
+	 font-size:21px;
+}
+ input#s {
+	font-size:21px;
 }
 .bgGreen {
 	background:#006c8c;
@@ -2396,6 +2403,7 @@ table tr td {
 	 -webkit-appearance: none;       
      -moz-appearance: none;    
      appearance: none;
+	 font-size:21px;
 }
 .homepage-hero-callout form select {
     border: none;
